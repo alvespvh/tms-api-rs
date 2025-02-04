@@ -1,0 +1,6 @@
+/target
+*.csv
+*.zip
+*.xlsx
+.env
+.cargo
