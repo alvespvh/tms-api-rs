@@ -11,3 +11,13 @@ Após instalar as libs adicionar a seguinte configuração no arquivo .cargo/con
 linker = "/usr/bin/clang-15"
 rustflags = ["-C", "link-arg=--ld-path=/usr/bin/mold"]
 ```
+
+Passos na criação do projeto:
+
+```
+1° - Criar o settings do projeto
+```
+
+```
+2° - Criar a conexao com o banco de dados
+```

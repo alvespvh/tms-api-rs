@@ -8,6 +8,9 @@ use serde::Deserialize;
 pub struct Settings {
     pub application_name: String,
     pub database_url: String,
+    pub telegram_bot_token: String,
+    pub telegram_chat_id: String,
+    pub log_level: Option<String>,
 }
 
 impl Default for Settings {
