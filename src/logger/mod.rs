@@ -4,7 +4,7 @@ use convert_case::Casing;
 
 use crate::prelude::SETTINGS;
 
-mod telegram;
+pub mod telegram;
 
 pub fn init() {
     let mut level = SETTINGS.log_level.clone().unwrap_or("INFO".to_string());
